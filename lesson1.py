@@ -62,9 +62,18 @@ sdasd
 # print(a)
 
 #############
-# a = int(input("1-ci ədədi daxil edin: "))
-# b = int(input("2-ci ədədi daxil edin: "))
-# c = a + b # Salam + Hello = SalamHello
-# print("Cavab: ", c)
+# #int()
+# a = int(input("1-ci ədədi daxil edin: ")  )# 12  
+# b = int(input("2-ci ədədi daxil edin: ")  )# 34 
+# c = a + b 
+# print(a, "+", b, "=", c)   # 12 + 34 = 46
 
-import this
+# import this
+
+# ad = "Emil"
+# soyad = "Fəxrəddinov"
+
+# tam_ad = ad + " " + soyad
+
+# print(tam_ad)
+
