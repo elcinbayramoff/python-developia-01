@@ -31,13 +31,54 @@
 
 #If else
 
-a = 5
-if a > 2:
-    print("A 2den boyukdur")
-    print("Duzdur")
+# a = 5
+# if a > 2:
+#     print("A 2den boyukdur")
+#     print("Duzdur")
     
-elif a > 4:
-    print("A 4den boyukdur")
-else:
-    print("A 2den boyuk deyil")
+# elif a > 4:
+#     print("A 4den boyukdur")
+# else:
+#     print("A 2den boyuk deyil")
 
+# a = 7
+# if a > 5: print(True)
+
+# a = 8
+
+# if a > 20:
+#     pass
+# elif a > 10:
+#     print("A 10dan boyukdur")
+# elif a > 9:
+#     print("A 9den boyukdur")
+# else:
+#     print(False)
+
+#And *
+#1 * 1 = 1
+
+#OR +
+
+#1 + 0 = 1
+#1 + 1 = 2 # True
+#0 + 1 = 1
+#0 + 0 = 0 # False
+
+# A = [1, 2, 3]
+
+# print('2' in A)# False
+
+# a = 10
+# if a > 5:
+#     if a < 20:
+#         print("A 5den boyuk 20den kicik")
+#     else:
+#         print("A 5den boyuk 20den boyuk")
+# else:
+#     print("A 5den boyukdur")
+
+# if True:
+#     print(5)
+    
+    
