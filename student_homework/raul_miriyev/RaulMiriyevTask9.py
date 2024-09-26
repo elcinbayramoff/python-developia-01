@@ -1,0 +1,35 @@
+# number = 12345678
+# count = 0
+
+# while number > 0:
+#     number //= 10
+#     count += 1
+
+# print("Rəqəmlərin sayı:", count)
+
+#////////////////////////////////////////////////////////////
+
+# eded = int(input("Reqem daxil et: "))
+
+# while eded < 0:
+#     print("Menfi ededdir")
+#     eded = int(input("Musbet eded daxil edin: "))
+
+#////////////////////////////////////////////////////////////
+
+# eded = 4567
+
+# reqemler_cemi = 0
+
+# while eded > 0:
+#     reqemler_cemi += eded % 10
+#     eded //= 10
+
+# print("Ədədlərin rəqəmlərinin cəmi: ", reqemler_cemi)
+
+
+#////////////////////////////////////////////////////////////
+
+#////////////////////////////////////////////////////////////
+
+#////////////////////////////////////////////////////////////
