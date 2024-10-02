@@ -7,6 +7,7 @@
 # }
 
 # print(my_dict['name'])
+#constructorlar
 #str()
 #list()
 #tuple()
@@ -45,14 +46,14 @@ my_dict = {
 # print(my_dict)
 
 
-my_dict = {
-    'name':'Elchin',
-    'surname':'Bayramli',
-    'age':10
-}
-my_dict['uzunluq'] = 180 # yenisini yaratmaq
+# my_dict = {
+#     'name':'Elchin',
+#     'surname':'Bayramli',
+#     'age':10
+# }
+# my_dict['uzunluq'] = 180 # yenisini yaratmaq
 
-print(my_dict)
+# print(my_dict)
 
 
 #KEYS
@@ -108,3 +109,54 @@ kitabca = {
 # for value in kitabca.values():
 #     print(value['phone'])
 
+# print(kitabca['adam1']['phone'])
+
+#Tapsiriq2
+# a = input("Cümləni daxil edin: ")
+
+# a = a.split()
+
+# #['Salam', 'menim', 'Salam', 'elcindir']
+# luget = {
+
+# }
+# for word in a:
+    
+#     if word in luget:
+#         luget[word] += 1
+#     else:
+#         luget[word] = 1
+# print(luget)
+
+# {
+#     'salam': 2, 
+#     'men': 2, 
+#     'elcin': 1, 
+#     'necesen': 1
+# }
+
+# Tapsiriq 3
+
+# luget = {
+#     'go' : 'get',
+#     'come' : 'gel',
+#     'name' : 'ad',
+#     'give' : 'ver',
+#     'run' : 'qac'
+# }
+# sentence = input("Cumleni daxil edin: ")
+
+# sentence = sentence.strip()
+
+# sentence_words = sentence.split() #['go','come','name']
+
+# for i in range(len(sentence_words)):
+#     soz = sentence_words[i] #go
+#     soz_tercume = luget[soz]  # get
+#     sentence_words[i] = soz_tercume # ['get','gel','ad']
+
+
+# tercume_cumle = ' '.join(sentence_words)
+
+# print(tercume_cumle)
+    
