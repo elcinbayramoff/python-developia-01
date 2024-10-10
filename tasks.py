@@ -208,7 +208,9 @@
 
 # '''
 
-# length = int(input("Uzunlugu daxil edin: "))
+# length = int(input("Uzunlugu daxil edin:
+# "))
 
 # for i in range(1, length+1):
 #     print('*'*i)
+

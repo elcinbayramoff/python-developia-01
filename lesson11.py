@@ -1,22 +1,22 @@
-x = 5  #global
-y = 10 #global
-def outer():
-    x = 10 # enclosing
-    print("Inside Outer 1:")
-    print("X:",x,"Y:",y)
-    def inner():
-        # nonlocal x
-        x = 20 #local scope
-        y = 3  #local scope 
-        print("Inside inner 1:")
-        print("X:",x,"Y:",y)
+# x = 5  #global
+# y = 10 #global
+# def outer():
+#     x = 10 # enclosing
+#     print("Inside Outer 1:")
+#     print("X:",x,"Y:",y)
+#     def inner():
+#         # nonlocal x
+#         x = 20 #local scope
+#         y = 3  #local scope 
+#         print("Inside inner 1:")
+#         print("X:",x,"Y:",y)
         
-    inner()
-    print("Inside outer 2:")
-    print("X:",x,"Y:",y)
-outer()
-print("Inside Global:")
-print("X:",x,"Y:",y)    
+#     inner()
+#     print("Inside outer 2:")
+#     print("X:",x,"Y:",y)
+# outer()
+# print("Inside Global:")
+# print("X:",x,"Y:",y)    
 
 
 # def func1(a,b,c=40): # c=40 defaul arqument
@@ -149,3 +149,75 @@ print("X:",x,"Y:",y)
 #     asili()
 
 # esas()
+
+
+#Funksiyalar tapsiriqlar
+
+#Tapsiriq 1
+# import math
+# def area(R):
+#     circle_area = math.pi * R ** 2
+#     return circle_area
+
+# sahe = area(3)
+# print(sahe)
+
+#Tapsiriq 3
+
+# def task3(*args):
+#     for i in args:
+#         print(i)
+        
+# task3(1, 'Salam' , 5)    
+    
+#Tapsiriq 4
+
+# def task4(**kwargs):
+#     # kwargs = {
+#     #     'b':5,
+#     #     'c':2,
+#     #     'd':'Salam'
+#     # }
+#     for value in kwargs.values():
+#         print(value)
+# task4(b = 5, c = 2, d = 'Salam')
+
+# def task5(A):
+#     for i in A: 
+#         if i % 2 == 1:
+#             return True
+    
+#     return False
+# def task5(A):
+#     flag = False
+#     for i in A: 
+#         if i % 2 == 1:
+#             flag = True
+#             break
+            
+#     return flag   
+    
+# value = task5([2, 4, 0, 6, 8])
+# print(value)
+
+#Task6
+
+# def task6(my_str, symbol):
+#     return my_str.count(symbol)
+
+# value = task6('Azerbaycan','Azerbaycan')
+# print(value)
+        
+#Task7
+
+# def task7(A):
+#     B = []
+#     for i in A:
+#         if isinstance(i, str):
+#             B.append(i.upper())
+#         else:
+#             B.append(i)
+#     return B
+    
+# value = task7(['A', 'b',True, 'c', 'Azer'])
+# print(value)
