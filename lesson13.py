@@ -175,3 +175,53 @@
 
 # a: str = b
 
+#Tapsiriq 1
+# def task1(a, b):
+#     try:
+#         return a / b
+#     except ZeroDivisionError:
+#         return "0-a bolmek olmaz"
+    
+#     except ValueError:
+#         return "Dogru daxil etmediniz"
+
+# try:
+#     first = int(input("Birinci ededi daxil edin: "))
+#     second = int(input("Ikinci ededi daxil edin: "))
+#     result = task1(first, second)
+#     print(result)
+# except ValueError:
+#     print("Dogru daxil etmediniz")
+
+#Tapsiriq2
+
+# A = [10, 20, 30, 40]
+# try:
+#     index = int(input('Indexi daxil edin: '))
+#     print(A[index])
+# except:
+#     print("Error var!!!!")
+
+#Tapsiriq3
+
+
+# az_eng = {
+#     'come':'gel',
+#     'go'  :'get',
+#     'sit' :'otur'
+# }
+# try:
+#     soz = input('Sozu daxil edin: ')
+
+#     print(az_eng[soz])
+
+# except KeyError:
+#     print('Bu soz lugetde yoxdur')
+
+
+# a: list =  input('eded daxil edin: ')
+
+# def tasks(a: list, b):
+    
+#     a.append(b)
+#     return b
