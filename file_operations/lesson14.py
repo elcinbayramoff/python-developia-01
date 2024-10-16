@@ -59,5 +59,73 @@ f.close()
 
 # f = open('insan.txt','r')
 # print(str(f))
+"""
+w - write
+r - read
+a - append
+x - Fayllari yaratmaq
+w+ - 
+r+ -
+
+"""
+"""
+t - text
+b - binary
+"""
+# file = open('insan.txt','w+')
+
+# file.write("Salamlari her kese")
+
+# print(file.read())
+
+# file.close()
 
 
+
+# f = open('insan.txt', 'w+')
+# f.write('Salam Insan')
+# f.seek(0)
+# data = f.read()
+# print(data)
+# f.close()
+
+# f = open('insan.txt', 'w+')
+# data = f.read()
+# print(data)
+# f.seek(0)
+# f.write('Salam Insan')
+# f.close()
+
+
+# #Task1
+# f = open('new.txt', 'w')
+# f.write('Hello World')
+# f.close()
+
+#Task2
+
+# f = open('data.txt') # default read(r)
+
+# data = f.readlines()
+# print(data)
+# for i in range(len(data)):
+#     print(i+1,"------", data[i])
+
+# f.close()
+
+#Task3
+# f = open('data.txt') 
+# data = f.read()
+# f.close()
+
+# file = open('data_copy.txt', 'w')
+# file.write(data)
+# file.close()
+
+#Task4
+# f = open('insan.txt', 'r')
+# data = f.read()
+
+# data1 = data.split()
+
+# print(len(data1))
