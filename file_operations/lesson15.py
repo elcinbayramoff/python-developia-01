@@ -49,43 +49,43 @@
 
 # import os
 
-# if os.path.exists("data10.txt"):
+# if os.path.exists("data.txt"):
 #     print("File exists!")
 # else:
 #     print("File does not exist.")
     
 # import os
 
-# os.mkdir("new_folder")
+# os.mkdir("new_folder1") # Yeni folder yaratmaq  - makedirectory
 
 
 # import os # Noqte oldugun yeri gosterir
 
-# files_in_current_dir = os.listdir(".")
-# for i in files_in_current_dir:
+# fayllarim = os.listdir(".") # list directories
+# for i in fayllarim:
 #     print(i)
 
 
+import os
+
+current_dir = os.getcwd() # get current working directory
+print('--------',current_dir,'-------------------')
+
+
 # import os
 
-# current_dir = os.getcwd() # get current working directory
-# print('--------',current_dir,'-------------------')
-
-
-# import os
-
-# os.chdir("file_operations/new_folder") # change directory
+# os.chdir("new_folder") # change directory
 # print('0--------------',os.getcwd())
 
 
 # import os
 
-# os.remove("old_file.txt")
+# os.remove("data_copy.txt")
 
     
 # import os
 
-# if os.path.isfile("my_file.txt"):
+# if os.path.isfile("lesson14.py"):
 #     print("It's a file!")
 # else:
 #     print("It's not a file.")
@@ -93,7 +93,7 @@
     
 # import os
 
-# if os.path.isdir("my_directory"):
+# if os.path.isdir("lesson14.py"):
 #     print("It's a directory!")
 # else:
 #     print("It's not a directory.")
@@ -101,14 +101,14 @@
     
 # import os
 
-# file_size = os.path.getsize("my_file.txt")
+# file_size = os.path.getsize("insan.txt")
 # print(file_size, "bytes")
 
 
 
 # import os
 
-# full_path = os.path.join(os.getcwd(), "users", "user1.txt")
+# full_path = os.path.join("new folder",'main_dir')
 # print(full_path)
 
 # import os
