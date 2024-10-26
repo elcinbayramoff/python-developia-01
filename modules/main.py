@@ -13,10 +13,10 @@
 # # salam('Elchin')
 # # my_module.salam('Elchin') # olmazzzz
 
-# from file_operations import lesson15
+from file_operations import lesson15
 
 
-# print(lesson15.current_dir)
+print(lesson15.current_dir)
 
 
 # from my_module import *

@@ -110,3 +110,95 @@ import random
 
 # A = [random.randint(1,5) for i in range(10)]
 # print(A)
+
+
+
+#TASKSSSS
+#TASK1
+# import random
+
+# n = int(input("Sayi daxil edin: "))
+
+# A = [random.randint(1,20) for i in range(n)]
+# print("Esas list: ", A)
+
+# print("Sortlanmis: ", sorted(A))
+
+#Task2
+
+
+# n = int(input("Uzunlugu daxil edin: "))
+
+# A = [random.randint(0,100) for i in range(n)]
+# print(A)
+# cem = sum(A)
+
+# ededi_orta = cem/n
+
+# print('Ededi orta: ', ededi_orta)
+
+#Task3
+
+# import string
+
+# boyuk_herf = string.ascii_uppercase
+# kicik_herf = string.ascii_lowercase
+# reqem = string.digits
+# umumi = boyuk_herf + kicik_herf + reqem
+
+# def password_generator():
+#     A = [random.choice(umumi) for _ in range(4)]
+#     print(A)
+#     password = ''.join(A)
+#     reqem_var, kicik_var, boyuk_var = False, False, False
+    
+#     for i in password:
+#         if i in reqem:
+#             reqem_var = True
+#         if i in kicik_herf:
+#             kicik_var = True
+#         if i in boyuk_herf:
+#             boyuk_var = True
+    
+#     if reqem_var and kicik_var and boyuk_var:
+#         return password
+    
+#     else:     
+#         return password_generator()
+
+# print(password_generator()) # AkxR2Xk8
+
+#Task4 
+
+
+# random_eded = random.randint(1, 30)
+# a = int(input('1 30 arasi eded daxil edin: '))
+
+# while True:
+    
+#     if a == random_eded:
+#         print("Qazandiniz")
+#         break 
+#     elif a < random_eded:
+#         print('Yuxari eded daxil edin: ')
+#         a = int(input('1 30 arasi eded daxil edin: '))
+#     else:
+#         print('Asagi eded daxil edin: ')
+#         a = int(input('1 30 arasi eded daxil edin: '))
+
+#Tasks
+# import random
+
+# n = int(input('Sayi daxil edin: '))
+# A = []
+# while len(A) != n:
+#     rand_eded = random.randint(1,n) 
+#     print(rand_eded, A)
+#     if rand_eded not in A:
+#         A.append(rand_eded)
+# print(A)
+
+
+
+
+
