@@ -214,3 +214,30 @@
 # for i in range(1, length+1):
 #     print('*'*i)
 
+# import random
+# from datetime import datetime, timedelta,date
+# now = datetime.now()
+
+
+# while True:
+    
+#     user = input('Imtahan tarixini gün-ay-il formasında daxil edin: ')
+#     date_obj = datetime.strptime(user, '%d-%m-%Y')
+#     if date_obj > now:
+#         print("\nDoğru daxil edildi. İndi isə görüş vaxtını təyin edin")
+#         weeks = 3
+#         while True:
+#             date_tom = date_obj + timedelta(weeks=weeks)
+#             print('\n',date_tom)
+#             user = input('Uygundur/Uygun deyil: ')  
+#             if user == 'Uygundur':
+#                 print("\nGörüş təyin edildi.")
+#                 print(date_tom.strftime('%d %B %Y, %A'))
+#                 break
+#             else:
+#                 weeks+=1
+#                 print("\nYeni görüş vaxtı:")
+#         break
+    
+#     else:
+#         print('\nNövbəti günlərdən biri olmalıdır.')  

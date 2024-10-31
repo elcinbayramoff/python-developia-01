@@ -73,3 +73,87 @@ from datetime import datetime
 
 # date_datetime = datetime.strptime(date_str, my_format)
 # print(date_datetime.strftime('%Y, %b %d, %a'))
+
+
+# Tasks
+
+#Task1
+#27.10.2024 09:11
+
+# from datetime import datetime
+
+# now = datetime.now()
+# formatted_now = now.strftime('%d.%m.%Y %H:%M')
+
+# print(formatted_now)
+
+#Task2
+
+# from datetime import date, timedelta
+
+# today = date.today()
+
+# after_5 = today + timedelta(days=5)
+# before_5 = today - timedelta(days=5)
+
+# print(today,'\n',after_5,'\n',before_5)
+
+#Task3
+
+# from datetime import date
+
+# ramazan = date(2025, 2, 28)
+# today = date.today()
+
+# diff = ramazan - today
+
+# print(diff.days)
+
+#Task4
+
+# from datetime import date
+# import random
+# A = []
+# today = date.today()
+# date_format = "%d %B %Y"
+# for i in range(5):
+#     # if today.month in ay_30:
+#     #     day_limit = 30
+#     # elif today.month in ay_31:
+#     #     day_limit = 31
+#     # else:
+#     #     day_limit = 29
+    
+#     a = date(today.year, today.month,random.randint(1, 28))
+#     print(a.strftime(date_format))
+
+
+#Task5
+
+import random
+from datetime import datetime, timedelta,date
+now = datetime.now()
+
+
+while True:
+    
+    user = input('Imtahan tarixini gün-ay-il formasında daxil edin: ')
+    date_obj = datetime.strptime(user, '%d-%m-%Y')
+    if date_obj > now:
+        print("\nDoğru daxil edildi. İndi isə görüş vaxtını təyin edin")
+        weeks = 3
+        while True:
+            date_tom = date_obj + timedelta(weeks=weeks)
+            print('\n',date_tom)
+            user = input('Uygundur/Uygun deyil: ')  
+            if user == 'Uygundur':
+                print("\nGörüş təyin edildi.")
+                print(date_tom.strftime('%d %B %Y, %A'))
+                break
+            else:
+                weeks+=1
+                print("\nYeni görüş vaxtı:")
+        break
+    
+    else:
+        print('\nNövbəti günlərdən biri olmalıdır.')  
