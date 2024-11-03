@@ -200,5 +200,13 @@ import random
 
 
 
+import json
 
-
+data = {
+    'name':'Elçin',
+    'surname':'Bayramli'
+}
+with open('data.json','w', encoding='UTF-8') as f:
+    a = json.dump(data,f, indent=4, ensure_ascii=False)
+    
+    
