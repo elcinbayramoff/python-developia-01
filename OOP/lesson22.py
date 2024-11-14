@@ -162,7 +162,7 @@ print('-------------------------------------------------')
         #Polymorphism
         #Abstraction
 
-#parent class ( base class)
+#parent class ( base class )
 
 #child class ()
 
@@ -199,23 +199,24 @@ print('-------------------------------------------------')
 
 #Polymorphism
 
-class Animal:
-    def sound(self):
-        print('Every animal has sound')
+# class Animal:
+#     def sound(self):
+#         print('Every animal has sound')
     
-class Dog(Animal):
-    def sound(self):
-        print( 'Haw haw')
+# class Dog(Animal):
+#     def sound(self):
+#         print( 'Haw haw')
     
-class Cat(Animal):
-    def sound(self):
-        print('Miyaw Miyaw')
+# class Cat(Animal):
+#     def sound(self):
+#         print('Miyaw Miyaw')
         
-dog1 = Dog()
-dog1.sound()
+# dog1 = Dog()
+# dog1.sound()
 
-cat1 = Cat()
-cat1.sound()
+# cat1 = Cat()
+# cat1.sound()
 
-animal = Animal()
-animal.sound()
+# animal = Animal()
+# animal.sound()
+
