@@ -77,7 +77,7 @@
 #     def get_player_info(self):
 #         return f"{self.name} ({self.position}) - Qollar: {self.goals}, Asistlər: {self.assists}, Sarı Kartlar: {self.yellow_cards}, Qırmızı Kartlar: {self.red_cards}, Oynadığı Oyunlar: {self.matches_played}"
 
-#     def update_performance(self, goals, assists, yellow_cards, red_cards):
+#     def update_performance(self, goals: int=0, assists: int=0, yellow_cards:int=0 , red_cards: int=0):
 #         self.goals += goals
 #         self.assists += assists
 #         self.yellow_cards += yellow_cards
@@ -96,6 +96,9 @@
 
 #     def add_player(self, player_name, position):
 #         self.players[player_name] = FootballPlayer(player_name, position)
+    
+#     # def add_player(self, player: FootballPlayer):
+#     #     self.players[player.name] = player
     
 #     def add_player_performance(self, player_name, goals, assists, yellow_cards, red_cards):
 #         if player_name in self.players:
