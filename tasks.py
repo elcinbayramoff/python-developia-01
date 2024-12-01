@@ -241,3 +241,20 @@
     
 #     else:
 #         print('\nNövbəti günlərdən biri olmalıdır.')  
+
+
+
+# Iki sort edilmiş listin birləşiminin sort olunmuşunu tap
+
+
+def func(list1, list2):
+    result: list = list1 + list2
+    result.sort()
+    
+    return result
+
+A = [1,2,3,4]
+
+B = [1,2,4,5,7]
+
+print(func(A,B))
