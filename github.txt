@@ -1,0 +1,123 @@
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject
+$ git init
+Initialized empty Git repository in C:/Users/User/OneDrive - Baku Higher Oil School/Desktop/MyProject/.git/
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Elchin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git add .
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Elchin.txt
+
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git commit -m "First file created"
+[main (root-commit) 4dedb83] First file created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Elchin.txt
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git remote add origin https://github.com/elcinbayramoff/home-work.git
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/elcinbayramoff/home-work.git
+ * [new branch]      main -> main
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ mkdir YeniFolder
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject (main)
+$ cd my_branch
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (main)
+$ git checkout -b new_branch
+Switched to a new branch 'new_branch'
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git status
+On branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git status
+On branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git status
+On branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git add .
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git status
+On branch new_branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Bayramli.txt
+
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git commit -m "Second file created"
+[new_branch 972b002] Second file created
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 my_branch/Bayramli.txt
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ git push origin new_branch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'new_branch' on GitHub by visiting:
+remote:      https://github.com/elcinbayramoff/home-work/pull/new/new_branch
+remote:
+To https://github.com/elcinbayramoff/home-work.git
+ * [new branch]      new_branch -> new_branch
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$ ^C
+
+User@WIN-J3BMJ0D7I2H MINGW64 ~/OneDrive - Baku Higher Oil School/Desktop/MyProject/my_branch (new_branch)
+$
