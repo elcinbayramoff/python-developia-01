@@ -298,3 +298,4 @@ for index in range(len(nums)):
             even_index = index #
 print(odd_index, even_index)
     
+    
