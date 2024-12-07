@@ -247,14 +247,54 @@
 # Iki sort edilmiş listin birləşiminin sort olunmuşunu tap
 
 
-def func(list1, list2):
-    result: list = list1 + list2
-    result.sort()
+# def func(list1, list2):
+#     result: list = list1 + list2
+#     result.sort()
     
-    return result
+#     return result
 
-A = [1,2,3,4]
+# A = [1,2,3,4]
 
-B = [1,2,4,5,7]
+# B = [1,2,4,5,7]
 
-print(func(A,B))
+# print(func(A,B))
+
+
+"""
+Elementləri klaviaturadan daxil olunacaq cüt və tək natural ədədlərdən ibarət siyahının ilk cüt elementi ilə 
+son tək elementinin indexlərini ekrana çıxarın.
+
+İnput:
+
+1 4 2 5 7 2 0 12 32 5 8
+
+Output:
+
+Ilk cut: 1
+Son tek: 9
+
+"""
+
+
+#1ci method. Tek ve cutleri bir liste yigiriq. Cutlerden ibaret listin ilk elementi
+#2ci method. Iki ayri loop yaradriq. Biri tek biri cut üçün. Cüt ədəd tapıldıqda break verir. Tək üçün loop tərsdən sayır
+#ilk teki tapdıqda break verir.
+#3cü method:
+
+nums = list(map(int, input('Ededleri daxil edin: ').split()))
+
+odd_index = None
+even_index = None
+# 1 4 2 5 7 2 0 12 32 5 8
+for index in range(len(nums)):
+    if nums[index] % 2:
+        odd_index = index # 
+
+    # if nums[index] % 2 == 1:
+    #     odd_index = index
+        
+    else:
+        if even_index == None:
+            even_index = index #
+print(odd_index, even_index)
+    
